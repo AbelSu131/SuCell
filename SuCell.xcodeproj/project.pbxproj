@@ -13,6 +13,17 @@
 		B54B38E21C45597D00C01729 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B54B38E01C45597D00C01729 /* Main.storyboard */; };
 		B54B38E41C45597D00C01729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54B38E31C45597D00C01729 /* Assets.xcassets */; };
 		B54B38E71C45597D00C01729 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B54B38E51C45597D00C01729 /* LaunchScreen.storyboard */; };
+		B5EBD4EB1C46468000ACB338 /* SuCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EBD4EA1C46468000ACB338 /* SuCollectionViewCell.m */; };
+		B5EBD4F61C4646CD00ACB338 /* Channel.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5EBD4ED1C4646CD00ACB338 /* Channel.plist */; };
+		B5EBD4F71C4646CD00ACB338 /* logo_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5EBD4EE1C4646CD00ACB338 /* logo_0.jpg */; };
+		B5EBD4F81C4646CD00ACB338 /* logo_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5EBD4EF1C4646CD00ACB338 /* logo_1.jpg */; };
+		B5EBD4F91C4646CD00ACB338 /* logo_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5EBD4F01C4646CD00ACB338 /* logo_2.jpg */; };
+		B5EBD4FA1C4646CD00ACB338 /* logo_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5EBD4F11C4646CD00ACB338 /* logo_3.jpg */; };
+		B5EBD4FB1C4646CD00ACB338 /* logo_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5EBD4F21C4646CD00ACB338 /* logo_4.jpg */; };
+		B5EBD4FC1C4646CD00ACB338 /* logo_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5EBD4F31C4646CD00ACB338 /* logo_5.jpg */; };
+		B5EBD4FD1C4646CD00ACB338 /* logo_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5EBD4F41C4646CD00ACB338 /* logo_6.jpg */; };
+		B5EBD4FE1C4646CD00ACB338 /* logo_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5EBD4F51C4646CD00ACB338 /* logo_7.jpg */; };
+		B5EBD5011C46476200ACB338 /* SuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EBD5001C46476200ACB338 /* SuModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,19 @@
 		B54B38E31C45597D00C01729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B54B38E61C45597D00C01729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B54B38E81C45597D00C01729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5EBD4E91C46468000ACB338 /* SuCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuCollectionViewCell.h; sourceTree = "<group>"; };
+		B5EBD4EA1C46468000ACB338 /* SuCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuCollectionViewCell.m; sourceTree = "<group>"; };
+		B5EBD4ED1C4646CD00ACB338 /* Channel.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Channel.plist; sourceTree = "<group>"; };
+		B5EBD4EE1C4646CD00ACB338 /* logo_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_0.jpg; sourceTree = "<group>"; };
+		B5EBD4EF1C4646CD00ACB338 /* logo_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_1.jpg; sourceTree = "<group>"; };
+		B5EBD4F01C4646CD00ACB338 /* logo_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_2.jpg; sourceTree = "<group>"; };
+		B5EBD4F11C4646CD00ACB338 /* logo_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_3.jpg; sourceTree = "<group>"; };
+		B5EBD4F21C4646CD00ACB338 /* logo_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_4.jpg; sourceTree = "<group>"; };
+		B5EBD4F31C4646CD00ACB338 /* logo_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_5.jpg; sourceTree = "<group>"; };
+		B5EBD4F41C4646CD00ACB338 /* logo_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_6.jpg; sourceTree = "<group>"; };
+		B5EBD4F51C4646CD00ACB338 /* logo_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo_7.jpg; sourceTree = "<group>"; };
+		B5EBD4FF1C46476200ACB338 /* SuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuModel.h; sourceTree = "<group>"; };
+		B5EBD5001C46476200ACB338 /* SuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +82,13 @@
 		B54B38D61C45597D00C01729 /* SuCell */ = {
 			isa = PBXGroup;
 			children = (
+				B5EBD5041C46477600ACB338 /* Controller */,
+				B5EBD5031C46476F00ACB338 /* View */,
+				B5EBD5021C46476700ACB338 /* Model */,
 				B54B38DA1C45597D00C01729 /* AppDelegate.h */,
 				B54B38DB1C45597D00C01729 /* AppDelegate.m */,
-				B54B38DD1C45597D00C01729 /* ViewController.h */,
-				B54B38DE1C45597D00C01729 /* ViewController.m */,
 				B54B38E01C45597D00C01729 /* Main.storyboard */,
+				B5EBD4EC1C46469400ACB338 /* Resource */,
 				B54B38E31C45597D00C01729 /* Assets.xcassets */,
 				B54B38E51C45597D00C01729 /* LaunchScreen.storyboard */,
 				B54B38E81C45597D00C01729 /* Info.plist */,
@@ -77,6 +103,49 @@
 				B54B38D81C45597D00C01729 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5EBD4EC1C46469400ACB338 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B5EBD4ED1C4646CD00ACB338 /* Channel.plist */,
+				B5EBD4EE1C4646CD00ACB338 /* logo_0.jpg */,
+				B5EBD4EF1C4646CD00ACB338 /* logo_1.jpg */,
+				B5EBD4F01C4646CD00ACB338 /* logo_2.jpg */,
+				B5EBD4F11C4646CD00ACB338 /* logo_3.jpg */,
+				B5EBD4F21C4646CD00ACB338 /* logo_4.jpg */,
+				B5EBD4F31C4646CD00ACB338 /* logo_5.jpg */,
+				B5EBD4F41C4646CD00ACB338 /* logo_6.jpg */,
+				B5EBD4F51C4646CD00ACB338 /* logo_7.jpg */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		B5EBD5021C46476700ACB338 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5EBD4FF1C46476200ACB338 /* SuModel.h */,
+				B5EBD5001C46476200ACB338 /* SuModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B5EBD5031C46476F00ACB338 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B5EBD4E91C46468000ACB338 /* SuCollectionViewCell.h */,
+				B5EBD4EA1C46468000ACB338 /* SuCollectionViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B5EBD5041C46477600ACB338 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B54B38DD1C45597D00C01729 /* ViewController.h */,
+				B54B38DE1C45597D00C01729 /* ViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +206,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5EBD4F61C4646CD00ACB338 /* Channel.plist in Resources */,
 				B54B38E71C45597D00C01729 /* LaunchScreen.storyboard in Resources */,
+				B5EBD4FC1C4646CD00ACB338 /* logo_5.jpg in Resources */,
+				B5EBD4F71C4646CD00ACB338 /* logo_0.jpg in Resources */,
+				B5EBD4FE1C4646CD00ACB338 /* logo_7.jpg in Resources */,
 				B54B38E41C45597D00C01729 /* Assets.xcassets in Resources */,
+				B5EBD4FA1C4646CD00ACB338 /* logo_3.jpg in Resources */,
+				B5EBD4F81C4646CD00ACB338 /* logo_1.jpg in Resources */,
+				B5EBD4F91C4646CD00ACB338 /* logo_2.jpg in Resources */,
+				B5EBD4FB1C4646CD00ACB338 /* logo_4.jpg in Resources */,
+				B5EBD4FD1C4646CD00ACB338 /* logo_6.jpg in Resources */,
 				B54B38E21C45597D00C01729 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,7 +228,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5EBD4EB1C46468000ACB338 /* SuCollectionViewCell.m in Sources */,
 				B54B38DF1C45597D00C01729 /* ViewController.m in Sources */,
+				B5EBD5011C46476200ACB338 /* SuModel.m in Sources */,
 				B54B38DC1C45597D00C01729 /* AppDelegate.m in Sources */,
 				B54B38D91C45597D00C01729 /* main.m in Sources */,
 			);
@@ -299,6 +379,7 @@
 				B54B38ED1C45597D00C01729 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
